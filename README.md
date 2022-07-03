@@ -30,6 +30,13 @@ AutosRUs is suffering from production troubles concerning their automobile proto
   predict the mpg of MechaCar protypes, although other variables need to be considered. 
   
 ## Summary Statistics on Suspension Coils
-
+### Summary Stats for All Lots
 ![summarystats1](https://github.com/mein0819/MechaCar_Statistical_Analysis/blob/main/readMe_Images/deliv2_1.png)
-![summarystats2](
+
+### Summary Stats By Lot
+![summarystats2](https://github.com/mein0819/MechaCar_Statistical_Analysis/blob/main/readMe_Images/deliv2_2.png)
+
+- The summary statistics for all lots shows a variance of 62 psi, which falls under the maximum variance of 100 psi
+- The summary statistics by lot shows that lot 3 is a serious contributor to variance, with a variance of 170 psi 
+  compared to variance of .98 for lot 1 and 7.4 for lot 2.
+- Overall the data meets the requirement but lot shows problems moving forward
