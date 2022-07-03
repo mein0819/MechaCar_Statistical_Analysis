@@ -23,7 +23,7 @@ head(suspension_Coil)
 total_summary <- suspension_Coil %>% summarize(Mean = mean(PSI), Median = median(PSI), Variance = var(PSI), SD = sd(PSI), .groups = 'keep')
 head(total_summary)
 
-# crate dataFrame using group_by and summarize()
+# create dataFrame using group_by and summarize()
 lot_summary <- suspension_Coil %>% group_by(Manufacturing_Lot) %>% summarize(Mean = mean(PSI), Median = median(PSI), Variance = var(PSI), SD = sd(PSI), .groups = 'keep')
 head(lot_summary)
 
@@ -34,7 +34,6 @@ t.test(suspension_Coil$PSI, mu=1500)
 
 # t-test for lot 1
 t.test(subset(suspension_Coil, Manufacturing_Lot == 'Lot1')$PSI, mu=1500)
-
 # t-test for lot 2
 t.test(subset(suspension_Coil, Manufacturing_Lot == 'Lot2')$PSI, mu=1500)
 # t-test for lot 3
