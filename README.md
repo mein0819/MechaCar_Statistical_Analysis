@@ -44,3 +44,10 @@ AutosRUs is suffering from production troubles concerning their automobile proto
 ## T-Tests on Suspension Coils
 
 ![tTestAll](https://github.com/mein0819/MechaCar_Statistical_Analysis/blob/main/readMe_Images/tTest.png)
+
+- The first T-test shows that the sample mean is not statistically different from the population mean, with a mean if 1498,
+  and a p-value of .06 which does not support rejecting the null hypothesis
+  
+- T-tests for each individual lot show that Lot 1 and 2 are not statistically different from the population mean and their
+  p-values do not support rejecting the null hypothesis. Lot 3 shows a slight variance in the mean value from the 
+  population and a p-value that is low enough to reject the null hypothesis. This analysis again shows that Lot 3             prototypes require further analysis to determine if they should be discarded or if there is a factor that can be           addressed.   
