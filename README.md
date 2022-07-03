@@ -31,4 +31,5 @@ AutosRUs is suffering from production troubles concerning their automobile proto
   
 ## Summary Statistics on Suspension Coils
 
-![summarystats1](
+![summarystats1](https://github.com/mein0819/MechaCar_Statistical_Analysis/blob/main/readMe_Images/deliv2_1.png)
+![summarystats2](
