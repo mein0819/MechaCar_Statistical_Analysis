@@ -39,4 +39,8 @@ AutosRUs is suffering from production troubles concerning their automobile proto
 - The summary statistics for all lots shows a variance of 62 psi, which falls under the maximum variance of 100 psi
 - The summary statistics by lot shows that lot 3 is a serious contributor to variance, with a variance of 170 psi 
   compared to variance of .98 for lot 1 and 7.4 for lot 2.
-- Overall the data meets the requirement but lot shows problems moving forward
+- Overall the data meets the requirement but lot 3 shows problems moving forward that need to be addressed.
+
+## T-Tests on Suspension Coils
+
+[tTestAll](
