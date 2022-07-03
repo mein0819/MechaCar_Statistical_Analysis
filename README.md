@@ -51,3 +51,18 @@ AutosRUs is suffering from production troubles concerning their automobile proto
 - T-tests for each individual lot show that Lot 1 and 2 are not statistically different from the population mean and their
   p-values do not support rejecting the null hypothesis. Lot 3 shows a slight variance in the mean value from the 
   population and a p-value that is low enough to reject the null hypothesis. This analysis again shows that Lot 3             prototypes require further analysis to determine if they should be discarded or if there is a factor that can be           addressed.   
+
+## Study Design: MechaCar vs Competition
+
+Considering the current global economy concerning fuel prices one study to show how MechaCar performs against competition would be fuel efficiency. This metric is increasingly at the forefront of buyers' interests and concerns when purchasing a new vehicle.  
+
+- Metrics to be tested will be efficiency in city and highway driving in miles per gallon
+  
+- The null hypothesis will be that there is no statistical difference between the mean of MechaCar's mpg dataset and the     mean of the competition's mpg dataset and the alternative hypothesis will be that MechaCar's mean mpg will be larger
+  than the competitions
+  
+- A t-test would be the best statistical test to show whether the null hypothesis can be rejected or fail to be rejected
+  and can be ran for data from a city driving dataset and a highway driving dataset. 
+  
+- The data needed would be miles per gallon numbers, with assumed factors being the same fuel type used and vehicle class
+  being the same. 
