@@ -43,4 +43,4 @@ AutosRUs is suffering from production troubles concerning their automobile proto
 
 ## T-Tests on Suspension Coils
 
-[tTestAll](
+![tTestAll](https://github.com/mein0819/MechaCar_Statistical_Analysis/blob/main/readMe_Images/tTest.png)
